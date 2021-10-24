@@ -7,10 +7,10 @@ public class SimpleJavaTempConverterMain{
 	//Global Var Declaration
 	private static JFrame w = new JFrame();
 	private static JPanel p = new JPanel();
-	private static JLabel tbTitleC = new JLabel("Enter Temp In Celsius");
+	private static JLabel tbTitleC = new JLabel("Enter Temp In Celsius: ");
 	private static JTextField tfC = new JTextField(14);
 	private static JButton bC = new JButton("Convert");
-	private static JLabel tbTitleF = new JLabel("Enter Temp In Fahrenheit");
+	private static JLabel tbTitleF = new JLabel("Enter Temp In Fahrenheit: ");
 	private static JTextField tfF = new JTextField(14);
 	private static JButton bF = new JButton("Convert");
 	private static String inputC;
