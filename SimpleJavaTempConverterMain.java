@@ -2,10 +2,7 @@ package simpleJavaTempConverter;
 
 //@author Torin 
 
-import javax.swing.*;
-import java.awt.event.*;
-import java.awt.*;
-import java.io.*;
+import javax.swing.*; import java.awt.event.*; import java.awt.*;
 public class SimpleJavaTempConverterMain{
 	//Global Var Declaration
 	private static JFrame w = new JFrame();
@@ -49,7 +46,7 @@ public class SimpleJavaTempConverterMain{
 			inputC = tfC.getText();
 			double inputDbl = Double.parseDouble(inputC);
 			double newTemp = (inputDbl / 5) * (9) + (32);
-			JOptionPane.showMessageDialog(null, "The Converted Temperature Is: "+newTemp+" F°");
+			JOptionPane.showMessageDialog(null, "The Converted Temperature Is: "+newTemp+" FÂ°");
 			} catch(Exception e) {
 				errorMsg();
 			}
@@ -62,7 +59,7 @@ public class SimpleJavaTempConverterMain{
 			inputF = tfF.getText();
 			double inputDbl = Double.parseDouble(inputF);
 			double newTemp = (inputDbl - 32) * (5) / (9);
-			JOptionPane.showMessageDialog(null, "The Converted Temperature Is: "+newTemp+" C°");
+			JOptionPane.showMessageDialog(null, "The Converted Temperature Is: "+newTemp+" CÂ°");
 			} catch(Exception e) {
 				errorMsg();
 			}
